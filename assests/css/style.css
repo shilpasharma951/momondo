@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-purple{
+    color: #5C327A;
+}
+.bg-pink{
+    background-color: #E53062;
+}
+
+/* ---------------------------------------------header--------------------------------- */
+header .navbar{
+    background-color: #101C36;
+}
+#flight{
+    color: #E53062;
+}
+header ul li .nav-link{
+    color: white;
+}
+header ul li .nav-link:hover{
+    color: #E53062;
+}
+header .btn{
+    color: #C4EB6C;
+}
+header .btn:hover{
+    color: #C4EB6C;
+}
+/* ---------------------------------------------header--------------------------------- */
+/* ---------------------------------------------main--------------------------------- */
+main .col h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+main{
+    background: url(../img/background\ heart.jpg) no-repeat;
+    height: auto;
+    background-position: center left;
+}
+main .row .col-10 .nav-pills .nav-link{
+    background-color: #403661;
+    padding: 7px 17px;
+    margin: 0px 2px;
+    color: white;
+}
+main .row .col-10 .nav-pills .nav-link.active{
+    background-color: #e01f56;
+    border-radius: 0px;
+}
+
+/* ---------------------------------------------main--------------------------------- */
+/* ---------------------------------------------fun--------------------------------- */
+#fun{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/ppp.jpg) no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+#fun .container .row .box{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 2px;
+    margin-bottom: 15px;
+}
+/* ---------------------------------------------fun--------------------------------- */
+/* ---------------------------------------------subscribe--------------------------------- */
+#subscribe{
+    background: url(../img/news3.jpg) no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+#subscribe input{
+    border: 2px solid white;
+    padding: 6px 150px 6px 5px; 
+    background: transparent;
+}
+#subscribe input:focus{
+    border: 2px solid #f3f3f5;
+    outline: none;
+}
+#subscribe button{
+    padding: 7px 30px;
+    background-color: white;
+    font-weight: 500px;
+}
+#subscribe button:focus{
+    border: 2px solid #faf9fa;
+    outline: none;
+}
+/* ---------------------------------------------subscribe--------------------------------- */
+/* ---------------------------------------------destinations--------------------------------- */
+#destinations{
+    background-color: #1F1631;
+}
+#destinations .row .box{
+ background-color: white;
+ color: black;
+ border-radius: 5px;
+}
+#destinations .row .box img{
+    width:96%;
+    margin: 5px 5px;
+}
+#destinations .row .box h6{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#destinations .row .box p{
+    padding: 0px 20px 30px 20px;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------destinations--------------------------------- */
+/* ---------------------------------------------estimate--------------------------------- */
+#estimate{
+    background-color: #664CAD;
+    
+}
+#estimate .dropdown{
+    background-color: white;
+    
+}
+#estimate input{
+    background-color: white;
+    padding: 5px 30px;
+    outline: none;
+    border: 1pr solid white;
+}
+#estimate button{
+    background-color: #FD9002;
+    padding: 5px 30px ;
+}
+/* ---------------------------------------------estimate--------------------------------- */
+/* ---------------------------------------------blog--------------------------------- */
+#blog .col-4{
+    font-size: 12px;
+    word-break: break-all;
+}
+#blog .col-4 p{
+    background-color: rgb(245, 242, 242);
+}
+
+/* ---------------------------------------------blog--------------------------------- */
+/* ---------------------------------------------Footer--------------------------------- */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../img/news3.jpg) no-repeat;
+    background-size: cover;
+}
+footer .row ul li{
+    list-style: none;
+    font-size: 12px;
+}
+footer .row .col{
+    display: block;
+}
+footer .menu li{
+display: inline;
+margin-right: 20px;
+}
+footer p{
+    font-size: 12px;
+}
+/* ---------------------------------------------footer--------------------------------- */
+/* ---------------------------------------------skldmklcd--------------------------------- */
+/* ---------------------------------------------ndnjsnkz--------------------------------- */
+/* max-with576 */
+@media screen and(max-width:1199) {
+    main .row .col-10 .nav-pills .nav-link{
+        padding: 5px 14px;
+        margin: 0px 1px;
+    }
+}
+
+/* max-with576 */
+@media screen and(max-width:991) {
+    main .col h1{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and(max-width:768) {
+    main .col h1{
+        font-size: 35px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    
+}
+
+
+
+@media screen and(max-width:576) {
+    main .col h1{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 9px;
+    }
+}
